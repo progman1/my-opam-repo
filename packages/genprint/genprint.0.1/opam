@@ -1,0 +1,18 @@
+synopsis: "A generic library to introspect and print OCaml values"
+opam-version: "2.0"
+maintainer: "Frederic Bour <def@fb.com>"
+authors: "Frederic Bour <def@fb.com>"
+homepage: "https://github.com/let-def/ocaml-introspect"
+bug-reports: "https://github.com/let-def/ocaml-introspect"
+dev-repo: "git+https://github.com/let-def/ocaml-introspect.git"
+license: "MIT"
+
+build: [
+  ["dune" "subst"] {pinned}
+  ["dune" "build" "-p" name "-j" jobs]
+]
+depends: []
+
+url {
+  src: "git+https://github.com/let-def/ocaml-introspect.git"
+}
