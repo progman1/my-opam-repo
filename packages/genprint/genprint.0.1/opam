@@ -1,4 +1,4 @@
-synopsis: "A generic library to introspect and print OCaml values"
+synopsis: "ccc"
 opam-version: "2.0"
 maintainer: "Frederic Bour <def@fb.com>"
 authors: "Frederic Bour <def@fb.com>"
