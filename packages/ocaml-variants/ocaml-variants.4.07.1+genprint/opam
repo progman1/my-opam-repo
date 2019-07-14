@@ -29,7 +29,7 @@ build: [
   [make "world.opt"]
 ]
 install: [make "install"]
-maintainer: "progman1"
+maintainer: "progman1@github"
 url {
   src: "git+https://github.com/progman1/ocaml.git#4.07.1+genprint"
 }
